@@ -1,0 +1,9 @@
+{
+    "id": "h3",
+    "type": "Location",
+    "title": "H3 Building",
+    "shortDesc": "Welcome to CIC H3 floor",
+    "description": "Welcome To H3 floor ! <br /> <br /> Within this floor the following teams are located: <br /> <br />RFS Department for IMT France<br /><strong>Manager:</strong> Laurent Allard <br /> <br />T&T PMO IMT Shared&nbsp; <br /><strong>Manager:</strong> Pavla Chaloupkova <br /> <br /> Delivery Transformation <br /><strong>Manager:</strong> Hana Klementova&nbsp; <br /> <br /> RFS Department for IMT&nbsp; Nordics <br /><strong>Manager:</strong> Lukas Vrana <br /> <br /> T&amp;T Department IMT France, Benelux &amp; Nordics <br /><strong>Manager:</strong> Mohamed Wassim Issaoui <br /> <br /> Project Management Services ABB account / VIG &amp; AMS-IT account / ITS-PM &amp; PMO team<br /><strong>Manager:</strong> Stefan Korista <br /> <br />Delivery Transformation Portfolio Leader (UNIT)<br /><strong>Second line manager:</strong> Karin Pastorova <br /> <br />The End.",
+    "images": "H3.png",
+    "contact": "rabah.beggar@cz.ibm.com"
+}

@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E5B75DB1DE656340056B7C6 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B75DA1DE656340056B7C6 /* Helpers.swift */; };
+		0E5B75DD1DE657420056B7C6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B75DC1DE657420056B7C6 /* Model.swift */; };
+		0E5B75E21DE65BBE0056B7C6 /* PlaceInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B75E11DE65BBE0056B7C6 /* PlaceInfoViewController.swift */; };
+		0E5CCBDD1DE7186400C46BFF /* temp_img_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCBDC1DE7186400C46BFF /* temp_img_1.jpg */; };
+		0E5CCBF31DE7443D00C46BFF /* jeff.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCBF21DE7443D00C46BFF /* jeff.json */; };
+		0E5CCBF81DE7445900C46BFF /* funnyfacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCBF41DE7445900C46BFF /* funnyfacts.json */; };
+		0E5CCBF91DE7445900C46BFF /* 4pm1dev.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCBF51DE7445900C46BFF /* 4pm1dev.json */; };
+		0E5CCBFA1DE7445900C46BFF /* h3.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCBF61DE7445900C46BFF /* h3.json */; };
+		0E5CCBFB1DE7445900C46BFF /* agile24.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCBF71DE7445900C46BFF /* agile24.json */; };
+		0E5CCC021DE745F300C46BFF /* 4PM1DEV.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCBFC1DE745F300C46BFF /* 4PM1DEV.png */; };
+		0E5CCC031DE745F300C46BFF /* Agile24.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCBFD1DE745F300C46BFF /* Agile24.png */; };
+		0E5CCC041DE745F300C46BFF /* H3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCBFE1DE745F300C46BFF /* H3.png */; };
+		0E5CCC051DE745F300C46BFF /* H3Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCBFF1DE745F300C46BFF /* H3Board.png */; };
+		0E5CCC061DE745F300C46BFF /* jeff.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCC001DE745F300C46BFF /* jeff.png */; };
+		0E5CCC0B1DE75DBA00C46BFF /* Funny-Wifi-cartoon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCC0A1DE75DBA00C46BFF /* Funny-Wifi-cartoon.jpg */; };
+		0E5CCC171DE76A0B00C46BFF /* button_event.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCC0D1DE76A0B00C46BFF /* button_event.png */; };
+		0E5CCC181DE76A0B00C46BFF /* button_event_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCC0E1DE76A0B00C46BFF /* button_event_pressed.png */; };
+		0E5CCC191DE76A0B00C46BFF /* button_funfact.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCC0F1DE76A0B00C46BFF /* button_funfact.png */; };
+		0E5CCC1A1DE76A0B00C46BFF /* button_funfact_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCC101DE76A0B00C46BFF /* button_funfact_pressed.png */; };
+		0E5CCC1B1DE76A0B00C46BFF /* button_location.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCC111DE76A0B00C46BFF /* button_location.png */; };
+		0E5CCC1C1DE76A0B00C46BFF /* button_location_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCC121DE76A0B00C46BFF /* button_location_pressed.png */; };
+		0E5CCC1D1DE76A0B00C46BFF /* button_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCC131DE76A0B00C46BFF /* button_people.png */; };
+		0E5CCC1E1DE76A0B00C46BFF /* button_people_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCC141DE76A0B00C46BFF /* button_people_pressed.png */; };
+		0E5CCC1F1DE76A0B00C46BFF /* button_team.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCC151DE76A0B00C46BFF /* button_team.png */; };
+		0E5CCC201DE76A0B00C46BFF /* button_team_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5CCC161DE76A0B00C46BFF /* button_team_pressed.png */; };
+		0E8453C01DE78CD300E1129D /* button_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8453BF1DE78CD300E1129D /* button_disabled.png */; };
+		0E8453C81DE7934200E1129D /* home_button_archive.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8453C21DE7934200E1129D /* home_button_archive.png */; };
+		0E8453C91DE7934200E1129D /* home_button_archive_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8453C31DE7934200E1129D /* home_button_archive_pressed.png */; };
+		0E8453CA1DE7934200E1129D /* home_button_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8453C41DE7934200E1129D /* home_button_info.png */; };
+		0E8453CB1DE7934200E1129D /* home_button_info_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8453C51DE7934200E1129D /* home_button_info_pressed.png */; };
+		0E8453CC1DE7934200E1129D /* home_button_scanqr.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8453C61DE7934200E1129D /* home_button_scanqr.png */; };
+		0E8453CD1DE7934200E1129D /* home_button_scanqr_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8453C71DE7934200E1129D /* home_button_scanqr_pressed.png */; };
+		0E8453CF1DE7955E00E1129D /* home_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E8453CE1DE7955E00E1129D /* home_logo.png */; };
+		0EC49FA91DE4D6A400C20263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC49FA81DE4D6A400C20263 /* AppDelegate.swift */; };
+		0EC49FAE1DE4D6A400C20263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC49FAC1DE4D6A400C20263 /* Main.storyboard */; };
+		0EC49FB01DE4D6A400C20263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC49FAF1DE4D6A400C20263 /* Assets.xcassets */; };
+		0EC49FB31DE4D6A400C20263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC49FB11DE4D6A400C20263 /* LaunchScreen.storyboard */; };
+		0EC49FBE1DE4D6A400C20263 /* Agile24UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC49FBD1DE4D6A400C20263 /* Agile24UITests.swift */; };
+		0EC49FC91DE4E78A00C20263 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC49FC81DE4E78A00C20263 /* Constants.swift */; };
+		0ECBB5D11DE6426400EF079F /* QRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECBB5CC1DE6426400EF079F /* QRReaderViewController.swift */; };
+		0ED705E41DE79ABB00CBF3A7 /* button_qr_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED705E31DE79ABB00CBF3A7 /* button_qr_pressed.png */; };
+		0ED705E61DE79ACA00CBF3A7 /* button_qr.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED705E51DE79ACA00CBF3A7 /* button_qr.png */; };
+		0ED705EE1DE7A4CC00CBF3A7 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED705E81DE7A4CC00CBF3A7 /* Icon-76.png */; };
+		0ED705F01DE7A4CC00CBF3A7 /* Icon-Small-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED705EA1DE7A4CC00CBF3A7 /* Icon-Small-40.png */; };
+		0ED705F11DE7A4CC00CBF3A7 /* Icon-Small-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED705EB1DE7A4CC00CBF3A7 /* Icon-Small-40@2x.png */; };
+		0ED705F21DE7A4CC00CBF3A7 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED705EC1DE7A4CC00CBF3A7 /* Icon-Small.png */; };
+		0ED705F31DE7A4CC00CBF3A7 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED705ED1DE7A4CC00CBF3A7 /* Icon-Small@2x.png */; };
+		0ED705F51DE7A77900CBF3A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED705F41DE7A77900CBF3A7 /* Images.xcassets */; };
+		0ED705F71DE7A7E900CBF3A7 /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED705F61DE7A7E900CBF3A7 /* splashscreen.png */; };
+		0ED705F91DE7A8B700CBF3A7 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ED705F81DE7A8B700CBF3A7 /* Icon-76@2x.png */; };
+		0EE0EC181DF8A15D0023F449 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE0EC171DF8A15D0023F449 /* Default-568h@2x.png */; };
+		3859F7E6715E105FDBA3016A /* Pods_Agile24.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4666A9B7B12895F4E9D63615 /* Pods_Agile24.framework */; };
+		D14A2770D6F3E3645ED8EA7D /* Pods_Agile24UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EB1FE1144336C6B94464FC /* Pods_Agile24UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EC49FBA1DE4D6A400C20263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EC49F9D1DE4D6A400C20263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EC49FA41DE4D6A400C20263;
+			remoteInfo = Agile24;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E5B75DA1DE656340056B7C6 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		0E5B75DC1DE657420056B7C6 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0E5B75E11DE65BBE0056B7C6 /* PlaceInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceInfoViewController.swift; sourceTree = "<group>"; };
+		0E5CCBDC1DE7186400C46BFF /* temp_img_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temp_img_1.jpg; sourceTree = "<group>"; };
+		0E5CCBF21DE7443D00C46BFF /* jeff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jeff.json; sourceTree = "<group>"; };
+		0E5CCBF41DE7445900C46BFF /* funnyfacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = funnyfacts.json; sourceTree = "<group>"; };
+		0E5CCBF51DE7445900C46BFF /* 4pm1dev.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 4pm1dev.json; sourceTree = "<group>"; };
+		0E5CCBF61DE7445900C46BFF /* h3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = h3.json; sourceTree = "<group>"; };
+		0E5CCBF71DE7445900C46BFF /* agile24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = agile24.json; sourceTree = "<group>"; };
+		0E5CCBFC1DE745F300C46BFF /* 4PM1DEV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4PM1DEV.png; sourceTree = "<group>"; };
+		0E5CCBFD1DE745F300C46BFF /* Agile24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Agile24.png; sourceTree = "<group>"; };
+		0E5CCBFE1DE745F300C46BFF /* H3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = H3.png; sourceTree = "<group>"; };
+		0E5CCBFF1DE745F300C46BFF /* H3Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = H3Board.png; sourceTree = "<group>"; };
+		0E5CCC001DE745F300C46BFF /* jeff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeff.png; sourceTree = "<group>"; };
+		0E5CCC0A1DE75DBA00C46BFF /* Funny-Wifi-cartoon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Funny-Wifi-cartoon.jpg"; sourceTree = "<group>"; };
+		0E5CCC0D1DE76A0B00C46BFF /* button_event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_event.png; sourceTree = "<group>"; };
+		0E5CCC0E1DE76A0B00C46BFF /* button_event_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_event_pressed.png; sourceTree = "<group>"; };
+		0E5CCC0F1DE76A0B00C46BFF /* button_funfact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_funfact.png; sourceTree = "<group>"; };
+		0E5CCC101DE76A0B00C46BFF /* button_funfact_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_funfact_pressed.png; sourceTree = "<group>"; };
+		0E5CCC111DE76A0B00C46BFF /* button_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_location.png; sourceTree = "<group>"; };
+		0E5CCC121DE76A0B00C46BFF /* button_location_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_location_pressed.png; sourceTree = "<group>"; };
+		0E5CCC131DE76A0B00C46BFF /* button_people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_people.png; sourceTree = "<group>"; };
+		0E5CCC141DE76A0B00C46BFF /* button_people_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_people_pressed.png; sourceTree = "<group>"; };
+		0E5CCC151DE76A0B00C46BFF /* button_team.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_team.png; sourceTree = "<group>"; };
+		0E5CCC161DE76A0B00C46BFF /* button_team_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_team_pressed.png; sourceTree = "<group>"; };
+		0E5CCC211DE77A6F00C46BFF /* LUBALGSM.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = LUBALGSM.TTF; sourceTree = "<group>"; };
+		0E8453BF1DE78CD300E1129D /* button_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_disabled.png; sourceTree = "<group>"; };
+		0E8453C21DE7934200E1129D /* home_button_archive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_button_archive.png; sourceTree = "<group>"; };
+		0E8453C31DE7934200E1129D /* home_button_archive_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_button_archive_pressed.png; sourceTree = "<group>"; };
+		0E8453C41DE7934200E1129D /* home_button_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_button_info.png; sourceTree = "<group>"; };
+		0E8453C51DE7934200E1129D /* home_button_info_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_button_info_pressed.png; sourceTree = "<group>"; };
+		0E8453C61DE7934200E1129D /* home_button_scanqr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_button_scanqr.png; sourceTree = "<group>"; };
+		0E8453C71DE7934200E1129D /* home_button_scanqr_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_button_scanqr_pressed.png; sourceTree = "<group>"; };
+		0E8453CE1DE7955E00E1129D /* home_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_logo.png; sourceTree = "<group>"; };
+		0EC49FA51DE4D6A400C20263 /* Agile24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agile24.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC49FA81DE4D6A400C20263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EC49FAD1DE4D6A400C20263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EC49FAF1DE4D6A400C20263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EC49FB21DE4D6A400C20263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EC49FB41DE4D6A400C20263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC49FB91DE4D6A400C20263 /* Agile24UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Agile24UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC49FBD1DE4D6A400C20263 /* Agile24UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agile24UITests.swift; sourceTree = "<group>"; };
+		0EC49FBF1DE4D6A400C20263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC49FC81DE4E78A00C20263 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0ECBB5CC1DE6426400EF079F /* QRReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRReaderViewController.swift; sourceTree = "<group>"; };
+		0ED705E31DE79ABB00CBF3A7 /* button_qr_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_qr_pressed.png; sourceTree = "<group>"; };
+		0ED705E51DE79ACA00CBF3A7 /* button_qr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_qr.png; sourceTree = "<group>"; };
+		0ED705E81DE7A4CC00CBF3A7 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		0ED705EA1DE7A4CC00CBF3A7 /* Icon-Small-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40.png"; sourceTree = "<group>"; };
+		0ED705EB1DE7A4CC00CBF3A7 /* Icon-Small-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-40@2x.png"; sourceTree = "<group>"; };
+		0ED705EC1DE7A4CC00CBF3A7 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		0ED705ED1DE7A4CC00CBF3A7 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		0ED705F41DE7A77900CBF3A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0ED705F61DE7A7E900CBF3A7 /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreen.png; sourceTree = "<group>"; };
+		0ED705F81DE7A8B700CBF3A7 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		0EE0EC171DF8A15D0023F449 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4666A9B7B12895F4E9D63615 /* Pods_Agile24.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agile24.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF6B3F399624FDF7D32B9B6 /* Pods-Agile24.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agile24.release.xcconfig"; path = "Pods/Target Support Files/Pods-Agile24/Pods-Agile24.release.xcconfig"; sourceTree = "<group>"; };
+		9805FE9B38E6AF52EDFEE2EA /* Pods-Agile24UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agile24UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Agile24UITests/Pods-Agile24UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3A03341EA528BEA2A188A67 /* Pods-Agile24.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agile24.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Agile24/Pods-Agile24.debug.xcconfig"; sourceTree = "<group>"; };
+		A9EB1FE1144336C6B94464FC /* Pods_Agile24UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agile24UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E734BFDFF7AA83B90B7AD2CA /* Pods-Agile24UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agile24UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Agile24UITests/Pods-Agile24UITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EC49FA21DE4D6A400C20263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3859F7E6715E105FDBA3016A /* Pods_Agile24.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC49FB61DE4D6A400C20263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14A2770D6F3E3645ED8EA7D /* Pods_Agile24UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E5B75D91DE655C50056B7C6 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0ED705F61DE7A7E900CBF3A7 /* splashscreen.png */,
+				0ED705E71DE7A4CC00CBF3A7 /* icons */,
+				0ED705E51DE79ACA00CBF3A7 /* button_qr.png */,
+				0ED705E31DE79ABB00CBF3A7 /* button_qr_pressed.png */,
+				0E8453C11DE7934200E1129D /* homebuttons_all */,
+				0E5CCC211DE77A6F00C46BFF /* LUBALGSM.TTF */,
+				0E5CCC0C1DE76A0B00C46BFF /* buttons */,
+				0E5B75DE1DE65AAB0056B7C6 /* temp_data */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		0E5B75DE1DE65AAB0056B7C6 /* temp_data */ = {
+			isa = PBXGroup;
+			children = (
+				0E5CCC0A1DE75DBA00C46BFF /* Funny-Wifi-cartoon.jpg */,
+				0E5CCBFC1DE745F300C46BFF /* 4PM1DEV.png */,
+				0E5CCBFD1DE745F300C46BFF /* Agile24.png */,
+				0E5CCBFE1DE745F300C46BFF /* H3.png */,
+				0E5CCBFF1DE745F300C46BFF /* H3Board.png */,
+				0E5CCC001DE745F300C46BFF /* jeff.png */,
+				0E5CCBDC1DE7186400C46BFF /* temp_img_1.jpg */,
+				0E5CCBF21DE7443D00C46BFF /* jeff.json */,
+				0E5CCBF41DE7445900C46BFF /* funnyfacts.json */,
+				0E5CCBF51DE7445900C46BFF /* 4pm1dev.json */,
+				0E5CCBF61DE7445900C46BFF /* h3.json */,
+				0E5CCBF71DE7445900C46BFF /* agile24.json */,
+			);
+			path = temp_data;
+			sourceTree = "<group>";
+		};
+		0E5CCC0C1DE76A0B00C46BFF /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				0E8453BF1DE78CD300E1129D /* button_disabled.png */,
+				0E5CCC0D1DE76A0B00C46BFF /* button_event.png */,
+				0E5CCC0E1DE76A0B00C46BFF /* button_event_pressed.png */,
+				0E5CCC0F1DE76A0B00C46BFF /* button_funfact.png */,
+				0E5CCC101DE76A0B00C46BFF /* button_funfact_pressed.png */,
+				0E5CCC111DE76A0B00C46BFF /* button_location.png */,
+				0E5CCC121DE76A0B00C46BFF /* button_location_pressed.png */,
+				0E5CCC131DE76A0B00C46BFF /* button_people.png */,
+				0E5CCC141DE76A0B00C46BFF /* button_people_pressed.png */,
+				0E5CCC151DE76A0B00C46BFF /* button_team.png */,
+				0E5CCC161DE76A0B00C46BFF /* button_team_pressed.png */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		0E8453C11DE7934200E1129D /* homebuttons_all */ = {
+			isa = PBXGroup;
+			children = (
+				0E8453CE1DE7955E00E1129D /* home_logo.png */,
+				0E8453C21DE7934200E1129D /* home_button_archive.png */,
+				0E8453C31DE7934200E1129D /* home_button_archive_pressed.png */,
+				0E8453C41DE7934200E1129D /* home_button_info.png */,
+				0E8453C51DE7934200E1129D /* home_button_info_pressed.png */,
+				0E8453C61DE7934200E1129D /* home_button_scanqr.png */,
+				0E8453C71DE7934200E1129D /* home_button_scanqr_pressed.png */,
+			);
+			path = homebuttons_all;
+			sourceTree = "<group>";
+		};
+		0EC49F9C1DE4D6A400C20263 = {
+			isa = PBXGroup;
+			children = (
+				0EE0EC171DF8A15D0023F449 /* Default-568h@2x.png */,
+				0EC49FA71DE4D6A400C20263 /* Agile24 */,
+				0EC49FBC1DE4D6A400C20263 /* Agile24UITests */,
+				0EC49FA61DE4D6A400C20263 /* Products */,
+				3036D3E9024B87B2402FC916 /* Pods */,
+				1B2031D8DB0325EA10C49C74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0EC49FA61DE4D6A400C20263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EC49FA51DE4D6A400C20263 /* Agile24.app */,
+				0EC49FB91DE4D6A400C20263 /* Agile24UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EC49FA71DE4D6A400C20263 /* Agile24 */ = {
+			isa = PBXGroup;
+			children = (
+				0ECBB5CB1DE6426400EF079F /* controllers */,
+				0ECBB5CD1DE6426400EF079F /* models */,
+				0ECBB5CE1DE6426400EF079F /* services */,
+				0ECBB5D01DE6426400EF079F /* views */,
+				0E5B75D91DE655C50056B7C6 /* resources */,
+				0EC49FA81DE4D6A400C20263 /* AppDelegate.swift */,
+				0EC49FAC1DE4D6A400C20263 /* Main.storyboard */,
+				0EC49FAF1DE4D6A400C20263 /* Assets.xcassets */,
+				0EC49FB11DE4D6A400C20263 /* LaunchScreen.storyboard */,
+				0EC49FB41DE4D6A400C20263 /* Info.plist */,
+				0EC49FC81DE4E78A00C20263 /* Constants.swift */,
+				0ED705F41DE7A77900CBF3A7 /* Images.xcassets */,
+			);
+			path = Agile24;
+			sourceTree = "<group>";
+		};
+		0EC49FBC1DE4D6A400C20263 /* Agile24UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EC49FBD1DE4D6A400C20263 /* Agile24UITests.swift */,
+				0EC49FBF1DE4D6A400C20263 /* Info.plist */,
+			);
+			path = Agile24UITests;
+			sourceTree = "<group>";
+		};
+		0ECBB5CB1DE6426400EF079F /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0ECBB5CC1DE6426400EF079F /* QRReaderViewController.swift */,
+				0E5B75E11DE65BBE0056B7C6 /* PlaceInfoViewController.swift */,
+			);
+			name = controllers;
+			path = classes/controllers;
+			sourceTree = "<group>";
+		};
+		0ECBB5CD1DE6426400EF079F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0E5B75DC1DE657420056B7C6 /* Model.swift */,
+			);
+			name = models;
+			path = classes/models;
+			sourceTree = "<group>";
+		};
+		0ECBB5CE1DE6426400EF079F /* services */ = {
+			isa = PBXGroup;
+			children = (
+				0E5B75DA1DE656340056B7C6 /* Helpers.swift */,
+			);
+			name = services;
+			path = classes/services;
+			sourceTree = "<group>";
+		};
+		0ECBB5D01DE6426400EF079F /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
+			path = classes/views;
+			sourceTree = "<group>";
+		};
+		0ED705E71DE7A4CC00CBF3A7 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				0ED705E81DE7A4CC00CBF3A7 /* Icon-76.png */,
+				0ED705F81DE7A8B700CBF3A7 /* Icon-76@2x.png */,
+				0ED705EA1DE7A4CC00CBF3A7 /* Icon-Small-40.png */,
+				0ED705EB1DE7A4CC00CBF3A7 /* Icon-Small-40@2x.png */,
+				0ED705EC1DE7A4CC00CBF3A7 /* Icon-Small.png */,
+				0ED705ED1DE7A4CC00CBF3A7 /* Icon-Small@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		1B2031D8DB0325EA10C49C74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4666A9B7B12895F4E9D63615 /* Pods_Agile24.framework */,
+				A9EB1FE1144336C6B94464FC /* Pods_Agile24UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3036D3E9024B87B2402FC916 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3A03341EA528BEA2A188A67 /* Pods-Agile24.debug.xcconfig */,
+				4AF6B3F399624FDF7D32B9B6 /* Pods-Agile24.release.xcconfig */,
+				9805FE9B38E6AF52EDFEE2EA /* Pods-Agile24UITests.debug.xcconfig */,
+				E734BFDFF7AA83B90B7AD2CA /* Pods-Agile24UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EC49FA41DE4D6A400C20263 /* Agile24 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EC49FC21DE4D6A400C20263 /* Build configuration list for PBXNativeTarget "Agile24" */;
+			buildPhases = (
+				FE8BD1605F1CF6765CD3D3FB /* [CP] Check Pods Manifest.lock */,
+				0EC49FA11DE4D6A400C20263 /* Sources */,
+				0EC49FA21DE4D6A400C20263 /* Frameworks */,
+				0EC49FA31DE4D6A400C20263 /* Resources */,
+				F9791490F71810FB250FD7F8 /* [CP] Embed Pods Frameworks */,
+				60944DDB34A4DB10D1999AF6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Agile24;
+			productName = Agile24;
+			productReference = 0EC49FA51DE4D6A400C20263 /* Agile24.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EC49FB81DE4D6A400C20263 /* Agile24UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EC49FC51DE4D6A400C20263 /* Build configuration list for PBXNativeTarget "Agile24UITests" */;
+			buildPhases = (
+				496F7E20F48A40BB93516792 /* [CP] Check Pods Manifest.lock */,
+				0EC49FB51DE4D6A400C20263 /* Sources */,
+				0EC49FB61DE4D6A400C20263 /* Frameworks */,
+				0EC49FB71DE4D6A400C20263 /* Resources */,
+				2DBBA07313CDCB006C993954 /* [CP] Copy Pods Resources */,
+				79DF4AEE68D30B66CF9BF4CC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EC49FBB1DE4D6A400C20263 /* PBXTargetDependency */,
+			);
+			name = Agile24UITests;
+			productName = Agile24UITests;
+			productReference = 0EC49FB91DE4D6A400C20263 /* Agile24UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EC49F9D1DE4D6A400C20263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Hung Nguyen";
+				TargetAttributes = {
+					0EC49FA41DE4D6A400C20263 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RCL8D853WN;
+						ProvisioningStyle = Automatic;
+					};
+					0EC49FB81DE4D6A400C20263 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RCL8D853WN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0EC49FA41DE4D6A400C20263;
+					};
+				};
+			};
+			buildConfigurationList = 0EC49FA01DE4D6A400C20263 /* Build configuration list for PBXProject "Agile24" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EC49F9C1DE4D6A400C20263;
+			productRefGroup = 0EC49FA61DE4D6A400C20263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EC49FA41DE4D6A400C20263 /* Agile24 */,
+				0EC49FB81DE4D6A400C20263 /* Agile24UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EC49FA31DE4D6A400C20263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED705F01DE7A4CC00CBF3A7 /* Icon-Small-40.png in Resources */,
+				0EE0EC181DF8A15D0023F449 /* Default-568h@2x.png in Resources */,
+				0E8453C91DE7934200E1129D /* home_button_archive_pressed.png in Resources */,
+				0E5CCC1D1DE76A0B00C46BFF /* button_people.png in Resources */,
+				0E5CCC171DE76A0B00C46BFF /* button_event.png in Resources */,
+				0E8453CF1DE7955E00E1129D /* home_logo.png in Resources */,
+				0E8453CC1DE7934200E1129D /* home_button_scanqr.png in Resources */,
+				0E5CCC201DE76A0B00C46BFF /* button_team_pressed.png in Resources */,
+				0ED705F71DE7A7E900CBF3A7 /* splashscreen.png in Resources */,
+				0E5CCBDD1DE7186400C46BFF /* temp_img_1.jpg in Resources */,
+				0ED705F21DE7A4CC00CBF3A7 /* Icon-Small.png in Resources */,
+				0ED705F51DE7A77900CBF3A7 /* Images.xcassets in Resources */,
+				0E5CCC031DE745F300C46BFF /* Agile24.png in Resources */,
+				0E5CCC1F1DE76A0B00C46BFF /* button_team.png in Resources */,
+				0ED705F11DE7A4CC00CBF3A7 /* Icon-Small-40@2x.png in Resources */,
+				0ED705E61DE79ACA00CBF3A7 /* button_qr.png in Resources */,
+				0ED705F31DE7A4CC00CBF3A7 /* Icon-Small@2x.png in Resources */,
+				0E8453C81DE7934200E1129D /* home_button_archive.png in Resources */,
+				0ED705F91DE7A8B700CBF3A7 /* Icon-76@2x.png in Resources */,
+				0EC49FB31DE4D6A400C20263 /* LaunchScreen.storyboard in Resources */,
+				0E5CCBFA1DE7445900C46BFF /* h3.json in Resources */,
+				0E5CCC0B1DE75DBA00C46BFF /* Funny-Wifi-cartoon.jpg in Resources */,
+				0E5CCC041DE745F300C46BFF /* H3.png in Resources */,
+				0E5CCBF81DE7445900C46BFF /* funnyfacts.json in Resources */,
+				0E5CCC061DE745F300C46BFF /* jeff.png in Resources */,
+				0ED705EE1DE7A4CC00CBF3A7 /* Icon-76.png in Resources */,
+				0E5CCC191DE76A0B00C46BFF /* button_funfact.png in Resources */,
+				0E8453CB1DE7934200E1129D /* home_button_info_pressed.png in Resources */,
+				0E8453CD1DE7934200E1129D /* home_button_scanqr_pressed.png in Resources */,
+				0EC49FB01DE4D6A400C20263 /* Assets.xcassets in Resources */,
+				0E5CCC051DE745F300C46BFF /* H3Board.png in Resources */,
+				0EC49FAE1DE4D6A400C20263 /* Main.storyboard in Resources */,
+				0E5CCBF91DE7445900C46BFF /* 4pm1dev.json in Resources */,
+				0E5CCBF31DE7443D00C46BFF /* jeff.json in Resources */,
+				0E5CCC1C1DE76A0B00C46BFF /* button_location_pressed.png in Resources */,
+				0ED705E41DE79ABB00CBF3A7 /* button_qr_pressed.png in Resources */,
+				0E5CCC1E1DE76A0B00C46BFF /* button_people_pressed.png in Resources */,
+				0E5CCBFB1DE7445900C46BFF /* agile24.json in Resources */,
+				0E5CCC1A1DE76A0B00C46BFF /* button_funfact_pressed.png in Resources */,
+				0E5CCC181DE76A0B00C46BFF /* button_event_pressed.png in Resources */,
+				0E8453C01DE78CD300E1129D /* button_disabled.png in Resources */,
+				0E5CCC1B1DE76A0B00C46BFF /* button_location.png in Resources */,
+				0E8453CA1DE7934200E1129D /* home_button_info.png in Resources */,
+				0E5CCC021DE745F300C46BFF /* 4PM1DEV.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC49FB71DE4D6A400C20263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DBBA07313CDCB006C993954 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Agile24UITests/Pods-Agile24UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		496F7E20F48A40BB93516792 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60944DDB34A4DB10D1999AF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Agile24/Pods-Agile24-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79DF4AEE68D30B66CF9BF4CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Agile24UITests/Pods-Agile24UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9791490F71810FB250FD7F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Agile24/Pods-Agile24-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8BD1605F1CF6765CD3D3FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EC49FA11DE4D6A400C20263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5B75DD1DE657420056B7C6 /* Model.swift in Sources */,
+				0ECBB5D11DE6426400EF079F /* QRReaderViewController.swift in Sources */,
+				0E5B75E21DE65BBE0056B7C6 /* PlaceInfoViewController.swift in Sources */,
+				0EC49FA91DE4D6A400C20263 /* AppDelegate.swift in Sources */,
+				0EC49FC91DE4E78A00C20263 /* Constants.swift in Sources */,
+				0E5B75DB1DE656340056B7C6 /* Helpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EC49FB51DE4D6A400C20263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC49FBE1DE4D6A400C20263 /* Agile24UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EC49FBB1DE4D6A400C20263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EC49FA41DE4D6A400C20263 /* Agile24 */;
+			targetProxy = 0EC49FBA1DE4D6A400C20263 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EC49FAC1DE4D6A400C20263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EC49FAD1DE4D6A400C20263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EC49FB11DE4D6A400C20263 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EC49FB21DE4D6A400C20263 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EC49FC01DE4D6A400C20263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EC49FC11DE4D6A400C20263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EC49FC31DE4D6A400C20263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A03341EA528BEA2A188A67 /* Pods-Agile24.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RCL8D853WN;
+				INFOPLIST_FILE = Agile24/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekninza.Agile24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EC49FC41DE4D6A400C20263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF6B3F399624FDF7D32B9B6 /* Pods-Agile24.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RCL8D853WN;
+				INFOPLIST_FILE = Agile24/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekninza.Agile24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0EC49FC61DE4D6A400C20263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9805FE9B38E6AF52EDFEE2EA /* Pods-Agile24UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RCL8D853WN;
+				INFOPLIST_FILE = Agile24UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekninza.Agile24UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Agile24;
+			};
+			name = Debug;
+		};
+		0EC49FC71DE4D6A400C20263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E734BFDFF7AA83B90B7AD2CA /* Pods-Agile24UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RCL8D853WN;
+				INFOPLIST_FILE = Agile24UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tekninza.Agile24UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Agile24;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EC49FA01DE4D6A400C20263 /* Build configuration list for PBXProject "Agile24" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC49FC01DE4D6A400C20263 /* Debug */,
+				0EC49FC11DE4D6A400C20263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EC49FC21DE4D6A400C20263 /* Build configuration list for PBXNativeTarget "Agile24" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC49FC31DE4D6A400C20263 /* Debug */,
+				0EC49FC41DE4D6A400C20263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EC49FC51DE4D6A400C20263 /* Build configuration list for PBXNativeTarget "Agile24UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC49FC61DE4D6A400C20263 /* Debug */,
+				0EC49FC71DE4D6A400C20263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EC49F9D1DE4D6A400C20263 /* Project object */;
+}

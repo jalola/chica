@@ -1,0 +1,9 @@
+{
+    "id": "funnyfacts",
+    "type": "Funny Facts",
+    "title": "Router-stiltskin",
+    "shortDesc": "Random facts from internet users",
+    "description": "Fun Fact from a random internet user: <br /> <br /><span style='color:#800080';><strong>\"I put so much more effort into naming my first Wi-Fi than naming my first child.\"</strong></span>",
+    "images": "Funny-Wifi-cartoon.jpg",
+    "contact": "ibmfunfacts@cz.ibm.com"
+}

@@ -1,0 +1,6 @@
+framework module Pods_Agile24 {
+  umbrella header "Pods-Agile24-umbrella.h"
+
+  export *
+  module * { export * }
+}
